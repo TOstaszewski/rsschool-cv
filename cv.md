@@ -31,7 +31,6 @@ No code examples yet.
 - **National Music Schools in Poland** - teacher (since 2014 - present)
 - **Centre of Culture and Arts in Foshan** (China) - teacher (2019-2022)
 - **National Philharmonic in Warsaw** - musician (2018-2019)
-- **Cultural Center** - teacher (2017-2019)
 
 ## Education
 ----------

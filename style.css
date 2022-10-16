@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black; 
+    background-color: black;
 }
 ul{
     list-style: none;
@@ -55,20 +55,12 @@ main{
     text-align: center;
     size: 4;
     width: 100%;
+    margin-left: -50px;
 }
-table {
-    background-color: darkslategray;
-    height: 6%;
-    margin-top: -1.5rem;
-    list-style: none;
-    width: 90%;
-    box-shadow: 3px 3px 5px white;
-}
-tr th a {
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-}
+.navigator{width: 1300px; margin: 0 auto;}
+.navigator ul li{float: inline-start; display: inline; text-align: justify; margin-right: 20px;}
+.navigator ul li a{color: rgb(251, 249, 246);height: 50px; padding: 0 30px; text-decoration: none; line-height: 50px; font-size: 1rem;}
+.navigator a{display:inline-block; padding: 2px; background-color: rgb(128, 128, 84);}
 hr {
     margin-bottom: 4rem;
 }
@@ -77,21 +69,10 @@ hr {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.aboutme ul {
-    margin: 3rem;
-    margin-bottom: 4rem;
-}
 .experience {
     margin-top: 4rem;
 }
-.experience ul {
-    margin: 3rem;
-    margin-bottom: 4rem;
-}
-.education {
-    margin: 3rem;
-}
-.education ul {
+.experience .education ul {
     margin: 3rem;
     margin-bottom: 4rem;
 }
@@ -99,10 +80,7 @@ hr {
     margin: 3rem;
     margin-bottom: 4rem;
 }
-.codeexample ul {
-    margin: 3rem;
-    margin-bottom: 4rem;
-}
+
 .aboutme, .experience, .education, .codeexample {
     line-height: 2rem;
     margin-left: 6rem;
@@ -119,3 +97,4 @@ footer {
     font-family: 'Fuzzy Bubbles', cursive;
     color: white;
 }
+

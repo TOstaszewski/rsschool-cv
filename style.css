@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 27.5% 1fr;
+    grid-gap: 4rem;
+}
+.personal{
+    padding-left: 4rem;
+    line-height: 2;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+}
+.skills, .languages{
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    line-height: 0.5rem;
+    color: white;
+    margin-top: -1.5rem;
+}
+.left{
+    background-color: darkslategray;
+}
+.left-image {
+    position: relative;
+}
+.left-image img{
+    width: 100%;
+}
+.left-image h2 {
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    left: 2.8rem;
+    font-family: 'Satisfy', cursive;
+    margin-top: 0.7rem;
+}
+.right {
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    size: 4;
+    width: 100%;
+    margin-left: -50px;
+}
+.navigator{width: 1300px; margin: 0 auto;}
+.navigator ul li{float: inline-start; display: inline; text-align: justify; margin-right: 20px;}
+.navigator ul li a{color: rgb(251, 249, 246);height: 50px; padding: 0 30px; text-decoration: none; line-height: 50px; font-size: 1rem;}
+.navigator a{display:inline-block; padding: 2px; background-color: rgb(128, 128, 84);}
+hr {
+    margin-bottom: 4rem;
+}
+.aboutme {
+    line-height: 2;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.experience {
+    margin-top: 4rem;
+}
+.experience .education ul {
+    margin: 3rem;
+    margin-bottom: 4rem;
+}
+.codeexample {
+    margin: 3rem;
+    margin-bottom: 4rem;
+}
+
+.aboutme, .experience, .education, .codeexample {
+    line-height: 2rem;
+    margin-left: 6rem;
+    margin-right: 12rem;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+}
+footer {
+    background-color: darkslategray;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+}
+

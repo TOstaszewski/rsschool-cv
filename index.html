@@ -1,1 +1,97 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV - HTML & CSS</title>
+</head>
+<body>
+    <main>
+        <section class="left">
+            <div class="left-image">
+                <img src="_DSC0206.jpg" width="420" height="620" alt="Photo of Tomasz Ostaszewski">
+                <h2>Tomasz Ostaszewski</h2>
+            </div>
+            <div class="personal">
+                <p id="pers">
+                    <ul>
+                        <li><i class="fas fa-location-arrow"></i> Warsaw, Poland</li>
+                        <li><i class="fas fa-phone"></i> +48 500 238 393</li>
+                        <li><i class="fas fa-envelope"></i> t.ostaszewski89@gmail.com</li>
+                    </ul>
+                </p>
+                <hr>
+            </div>
+            <div class="skills">
+                <h3 id="skills"><i class="fas fa-cog"></i> Skills</h3>
+        	<ul>
+                <li> <p>Piano and Accordion playing</p> <progress max="100" value="100"></progress></li>
+                <li> <p>VS Code</p> <progress max="100" value="60"></progress></li>
+        		<li> <p>HTML</p> <progress max="100" value="40"></progress></li>
+            </ul>
+            </div>
+            <div class="languages">
+                <h4 id="languages"><i class="fas fa-globe"></i> Languages</h4>
+        	<ul>
+                <li> <p>Polish</p> <progress max="100" value="100"></progress></li>
+                <li> <p>English</p> <progress max="100" value="70"></progress></li>
+        		<li> <p>German</p> <progress max="100" value="40"></progress></li>
+                <li> <p>Russian</p> <progress max="100" value="30"></progress></li> 
+            </ul>
+            </div>
+        </section>
+        <section class="right">
+            <table>
+                <tr>
+                    <th><a href="#pers">CONTACT</a></th>
+                        <th><a href="#skills">SKILLS</a></th>
+                            <th><a href="#languages">LANGUAGES</a></th>
+                                <th><a href="#aboutme">ABOUT ME</a></th>
+                                    <th><a href="#experience">EXPERIENCE</a></th>
+                                        <th><a href="#education">EDUCATION</a></th>
+                                            <th><a href="#codeexample">CODE EXAMPLE</a></th>
+                </tr>
+            </table>
+            <div class="aboutme">
+                <hr>
+                <h1 id="aboutme"><i class="fas fa-hand-peace"></i>About me</h1>
+                <ul>
+                    <li>I’m a musician and accordion teacher at the National Music School in Poland. I like new challenges, that’s why I decided to learn something new.</li>
+                </ul>
+                <hr>
+            </div>
+            <div class="experience">
+                <h1 id="experience"><i class="fas fa-briefcase"></i>Experience</h1>
+                <ul>
+                    <li><p>National Music Schools in Poland - teacher (since 2014 - present)</p></li>
+                    <li><p>Centre of Culture and Arts in Foshan (China) - teacher (2019-2022)</p></li>
+                    <li><p>National Philharmonic in Warsaw - musician (2018-2019)</p></li>
+                </ul>
+                <hr>
+            </div>
+            <div class="education">
+                <h1 id="education"><i class="fas fa-building-columns"></i>Education</h1>
+                <ul>
+                    <li><p>The Rolling Scopes School (2022)</p></li>
+                    <li><p>The Chopin University of Music in Warsaw (Poland, 2013)</p></li>
+                </ul>
+                <hr>
+            </div>
+            <div class="codeexample">
+                <h1 id="codeexample"><i class="fas fa-code"></i>Code example</h1>
+                <ul>
+                    <li>// the hello world program</li>
+                    <li>console.log('Hello World!');</li>
+                </ul>
+                <hr>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/TOstaszewski"><img src="GitHub.png" alt="GitHub logo"></a><a href=https://rs.school/js-en><img src="rsschool.jpg" alt="RSSchool logo"></a></p>
+            <p>Tomasz Ostaszewski</p>
+            <p>October 2022</p>
+    </footer>
+</body>
+</html>
